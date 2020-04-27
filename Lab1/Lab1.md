@@ -69,9 +69,9 @@
   2. apk file is an android package file used to distribute app
   3. Android system runs app similiar to the way linux handling multi-users by giving each app an user ID.
   4. Android app contains 4 main components : 
-    **Activities:** representing a single screen with user interface.
-    **Service:** runs in the background to for example collect data or play music. It keeps the app alive even though the user doesn’t interact with it, and it doesn’t have an interface.
-    **Broadcast receiver:** allows the app to receive system-wide notifications.
-    **Content provider:** manages access to data. This includes sharing access to an apps data to other applications, sending data to a widget, synchronizing app data etc.
+    + **Activities:** representing a single screen with user interface.
+    + **Service:** runs in the background to for example collect data or play music. It keeps the app alive even though the user doesn’t interact with it, and it doesn’t have an interface.
+    + **Broadcast receiver:** allows the app to receive system-wide notifications.
+    + **Content provider:** manages access to data. This includes sharing access to an apps data to other applications, sending data to a widget, synchronizing app data etc.
   5. Manifest file used to tell the system what does the app has and require to run.
   6. App resources are everything that isn't the source code like images, audio files, etc... These things helps the application better optimized and easier to adapt to multiple device configurations.
