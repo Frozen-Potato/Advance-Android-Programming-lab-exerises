@@ -7,16 +7,26 @@
         }
     ```
 + Object: a product built upon a class.
-    ```Object something = new Object();```
+    ```java
+        Object something = new Object();
+    ```
 + Instatiation of object using "new" keyword
-    ```Object something = new Object();```
+    ```java 
+        Object something = new Object();
+    ```
 + Visibility (public / private / protected) 
     ***public :*** can be access from everywhere 
-        ```public String data```
+        ```java
+            public String data;
+        ```
     ***protected :*** only current class and subclass of the same class can access
-        ```pricate String data```
+        ```java
+            pricate String data;
+        ```
     ***pricate :*** only current class can access
-        ```protected String data```
+        ```java
+            protected String data;
+        ```
 + Member datas / methods : variable of an object
 + Inheritance : passing properties and behaviors of an parents object to its children
     ```java
