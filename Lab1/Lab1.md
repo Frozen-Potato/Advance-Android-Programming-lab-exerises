@@ -15,15 +15,15 @@
         Object something = new Object();
     ```
 + Visibility (public / private / protected) 
-    ***public :*** can be access from everywhere 
+    + ***public :*** can be access from everywhere 
         ```java
             public String data;
         ```
-    ***protected :*** only current class and subclass of the same class can access
+    + ***protected :*** only current class and subclass of the same class can access
         ```java
             pricate String data;
         ```
-    ***pricate :*** only current class can access
+    + ***pricate :*** only current class can access
         ```java
             protected String data;
         ```
