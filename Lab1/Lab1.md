@@ -21,7 +21,7 @@
         ```
     + ***protected :*** only current class and subclass of the same class can access
         ```java
-            pricate String data;
+            private String data;
         ```
     + ***pricate :*** only current class can access
         ```java
