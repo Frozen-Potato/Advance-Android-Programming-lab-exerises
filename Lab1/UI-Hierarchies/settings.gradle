@@ -1,0 +1,2 @@
+rootProject.name='UI Hierarchies'
+include ':app'
